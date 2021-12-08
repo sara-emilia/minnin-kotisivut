@@ -1,0 +1,85 @@
+.container {
+    width: 100%;
+    text-align: center;
+    height: 1600px;
+    margin: 0;
+}
+
+.container-nav {
+    height: 5%;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 10px;
+}
+.container-header {
+    height: 20%;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 25px;
+    background-color: rgb(255, 230, 204);
+}
+
+.container-link {
+    height: 75%;
+    box-sizing: border-box;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: rgb(255, 230, 204);
+}
+
+.container-bottom {
+    height: 3%;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Sacramento', cursive;
+    background-color: rgb(255, 230, 204);
+    color: rgb(0, 128, 128);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 128, 128);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(255, 243, 230);
+    color: rgb(0, 102, 102);
+    text-decoration: none;
+    
+  }
+
+  .active {
+    color: rgb(0, 102, 102);
+    background-color: rgb(255, 230, 204);
+  }
+
+#otsikko {
+    font-family: 'Sacramento', cursive;
+    font-size: 600%;
+    padding-top: 25px;
+    color: rgb(0, 102, 102);
+  }
+
+#titteli {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: rgb(0, 102, 102);
+  }
+

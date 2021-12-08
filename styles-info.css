@@ -1,0 +1,124 @@
+.container {
+    width: 100%;
+    text-align: center;
+    height: 1000px;
+    margin: 0;
+}
+
+.container-nav {
+    height: 8%;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 10px;
+}
+.container-header {
+    height: 22%;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 25px;
+    background-color: rgb(255, 230, 204);
+}
+
+.container-link {
+    height: 55%;
+    background-color: rgb(255, 230, 204);
+}
+
+.container-bottom {
+  padding-top: 5%;
+    height: 3%;
+    box-sizing: border-box;
+    position: relative;
+    text-align: center;
+    font-size: 150%;
+    font-family: 'Sacramento', cursive;
+    background-color: rgb(255, 230, 204);
+    color: rgb(0, 128, 128);
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  li {
+    float:left;
+  }
+  
+  li a {
+    display: block;
+    color: rgb(0, 128, 128);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+
+  li a:hover {
+    background-color: rgb(255, 243, 230);
+    color: rgb(0, 102, 102);
+    text-decoration: none;
+    
+  }
+
+  .active {
+    color: rgb(0, 102, 102);
+    background-color: rgb(255, 230, 204);
+  }
+
+#otsikko {
+    font-family: 'Sacramento', cursive;
+    font-size: 600%;
+    padding-top: 25px;
+    color: rgb(0, 102, 102);
+  }
+
+#titteli {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    color: rgb(0, 102, 102);
+  }
+
+  #esittely {
+    font-family: 'Zen Maru Gothic', sans-serif;
+    text-align: center;
+    color: rgb(0, 102, 102);
+    margin-left: 18%;
+    margin-right: 18%;
+    font-size: large;
+  }
+
+  #kuva {
+    padding-top: 2%;
+    height: 50%;
+  }
+
+  .button1 {
+    padding: 12px 20px;
+    font-family: 'Zen Maru Gothic', sans-serif;
+    border-radius: 4px solid rgb(0, 102, 102);
+    background-color: white;
+  }
+
+  .yhteydenotto {
+    background-color: rgb(255, 230, 204);
+    padding-left: 10%;
+    padding-right: 10%;
+    box-sizing: border-box;
+    position: relative;
+  }
+
+  input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid rgb(0, 102, 102);
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: 'Zen Maru Gothic', sans-serif;
+  }
+
+  label {
+    font-family: 'Zen Maru Gothic', sans-serif;
+  }
