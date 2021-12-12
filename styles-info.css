@@ -1,7 +1,7 @@
 .container {
     width: 100%;
     text-align: center;
-    height: 1000px;
+    height: 1200px;
     margin: 0;
 }
 
@@ -12,28 +12,25 @@
     padding-top: 10px;
 }
 .container-header {
-    height: 22%;
-    box-sizing: border-box;
-    position: relative;
-    padding-top: 25px;
-    background-color: rgb(255, 230, 204);
+  height: 10%;
+  box-sizing: border-box;
+  position: relative;
+  padding-top: 2%;
+  background-color: rgb(255, 230, 204);
 }
 
 .container-link {
-    height: 55%;
+    height: 40%;
     background-color: rgb(255, 230, 204);
+    box-sizing: border-box;
+    position: relative;
 }
 
 .container-bottom {
-  padding-top: 5%;
     height: 3%;
     box-sizing: border-box;
     position: relative;
-    text-align: center;
-    font-size: 150%;
-    font-family: 'Sacramento', cursive;
-    background-color: rgb(255, 230, 204);
-    color: rgb(0, 128, 128);
+    background-color: white;
 }
 
 ul {
@@ -69,15 +66,22 @@ ul {
 
 #otsikko {
     font-family: 'Sacramento', cursive;
-    font-size: 600%;
-    padding-top: 25px;
     color: rgb(0, 102, 102);
+    font-size: 400%;
+    padding-top: 2%;
+    padding-bottom: 2%;
   }
 
 #titteli {
-    font-family: 'Zen Maru Gothic', sans-serif;
-    color: rgb(0, 102, 102);
-  }
+  font-family: 'Zen Maru Gothic', sans-serif;
+  text-align: center;
+  padding-bottom: 2%;
+  color: rgb(0, 102, 102);
+  background-color: rgb(255, 230, 204);
+  height: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
 
   #esittely {
     font-family: 'Zen Maru Gothic', sans-serif;
@@ -106,6 +110,7 @@ ul {
     padding-right: 10%;
     box-sizing: border-box;
     position: relative;
+    height: 30%;
   }
 
   input[type=text], select {
@@ -121,4 +126,9 @@ ul {
 
   label {
     font-family: 'Zen Maru Gothic', sans-serif;
+  }
+
+  #lähetä {
+    padding-top: 5%;
+    padding-bottom: 5%;
   }
